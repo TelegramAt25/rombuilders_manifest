@@ -17,6 +17,7 @@
   <project path="kernel/xiaomi/selene" name="android_kernel_xiaomi_selene.git" remote="t25" revision="thirteen-stable" clone-depth="1" />
 
   <!-- hardware -->
+  <remove-project name="android_hardware_mediatek" />
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="t25" revision="thirteen" clone-depth="1" />
 
   <!-- sepolicy vndr -->
