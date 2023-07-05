@@ -2,6 +2,7 @@
 <manifest>
 
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
+  <remote name="thomsiiii" fetch="https://github.com/thomsiiii" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
   <!-- /* device specific */ -->
@@ -17,7 +18,7 @@
 
   <!-- hardware -->
   <remove-project name="android_hardware_mediatek" />
-  <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="t25" revision="thirteen" clone-depth="1" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="thomsiiii" revision="thirteen" clone-depth="1" />
 
   <!-- /* rombuilders stuff */ -->
 
