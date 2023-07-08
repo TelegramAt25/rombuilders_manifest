@@ -2,6 +2,7 @@
 <manifest>
 
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
+  <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
   <!-- /* device specific */ -->
@@ -18,6 +19,9 @@
   <!-- hardware -->
   <remove-project name="android_hardware_mediatek" />
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="t25" revision="thirteen" clone-depth="1" />
+
+  <!-- sepolicy vndr -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LOS" revision="lineage-20" clone-depth="1" />
 
   <!-- /* rombuilders stuff */ -->
 
