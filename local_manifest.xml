@@ -29,4 +29,14 @@
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
  
+  <!-- /* hacks */ -->
+
+  <!-- fix for telelgram video playing, presumably, and more i guess -->
+  <remove-project name="frameworks_av"/>
+  <project path="frameworks/av" name="frameworks_av.git" remote="t25" revision="alpha-13" clone-depth="1" />
+
+  <!-- bootanimation dont think you can get away even if im at cirrus -->
+  <remove-project name="frameworks_native"/>
+  <project path="frameworks/native" name="frameworks_native.git" remote="t25" revision="alpha-13" clone-depth="1" />
+
 </manifest>
