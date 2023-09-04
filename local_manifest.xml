@@ -28,5 +28,11 @@
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+
+  <!-- /* hacks */ -->
+
+  <!-- fix for telelgram video playing, presumably, and more i guess -->
+  <remove-project name="frameworks_av"/>
+  <project path="frameworks/av" name="frameworks_av.git" remote="t25" revision="derp-13" />
  
 </manifest>
