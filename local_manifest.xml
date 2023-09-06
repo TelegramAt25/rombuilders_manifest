@@ -8,7 +8,7 @@
   <!-- /* device specific */ -->
 
   <!-- device -->
-  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="t25" revision="derp-13_r2" />
+  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="t25" revision="skyline-13-r2" />
 
   <!-- vendor -->
   <project path="vendor/xiaomi/selene" name="android_vendor_xiaomi_selene.git" remote="t25" revision="thirteen" clone-depth="1" />
