@@ -42,6 +42,6 @@
 
   <!-- bootanimation dont think you can get away even if im at cirrus -->
   <remove-project name="frameworks_native"/>
-  <project path="frameworks/native" name="frameworks_native.git" remote="t25" revision="cr-13" />
+  <project path="frameworks/native" name="cr_frameworks_native.git" remote="t25" revision="cr-13" />
 
 </manifest>
