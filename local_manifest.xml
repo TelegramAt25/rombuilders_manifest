@@ -24,6 +24,11 @@
   <!-- sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LOS" revision="lineage-20" clone-depth="1" />
 
+  <!-- /* common ximi */ -->
+
+  <!-- hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="LOS" revision="lineage-20" clone-depth="1" />
+
   <!-- /* rombuilders stuff */ -->
 
   <!-- clang -->
